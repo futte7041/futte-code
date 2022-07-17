@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Prompt:wght@300;400&family=Sarabun:wght@500;600&display=swap');
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Kanit', sans-serif;
+    height: 1000px;
+}
+.banner{
+    width:100;
+    height:100;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.banner video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    width: 100%;
+    height: 100;
+    pointer-events: none;
+
+
+}
+.banner .content {
+position: relative;
+z-index: 1;
+max-width: 1000;
+margin: 0 auto;
+text-align: center;
+
+}
+.banner .content h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color:#fff;
+}
+.banner .content p {
+
+    font-size: 1.5em;
+    color:#fff;
+}
